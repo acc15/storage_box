@@ -1,0 +1,16 @@
+{
+  "unit": "picofarad",
+  "layout": [4, 16],
+  "schemes": [
+    { "type": "linear", "count": 16, "start": 0, "end": 100 },
+    { "type": "linear", "count": 16, "start": 100, "end": 1000 },
+    { "type": "linear", "count": 16, "start": 1000, "end": 100000 },
+    { "type": "linear", "count": 12, "start": 100000, "end": 1000000 },
+    { "type": "linear", "count": 1, "start": 1000000, "end": 10000000 },
+    { "type": "linear", "count": 1, "start": 10000000, "end": 100000000 },
+    { "type": "linear", "count": 1, "start": 100000000, "end": 10000000000 }
+  ],
+  "merges": [
+    [[2, 0], [2, 1]]
+  ]
+}
